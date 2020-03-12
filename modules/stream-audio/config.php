@@ -2,7 +2,7 @@
 
 return [
     '__name' => 'stream-audio',
-    '__version' => '0.0.1',
+    '__version' => '0.1.0',
     '__git' => 'git@github.com:getmim/stream-audio.git',
     '__license' => 'MIT',
     '__author' => [
@@ -55,6 +55,15 @@ return [
                     'type' => 'text'
                 ],
                 'url' => [
+                    'type' => 'text'
+                ],
+                'curr_cover' => [
+                    'type' => 'media'
+                ],
+                'curr_artist' => [
+                    'type' => 'text'
+                ],
+                'curr_song' => [
                     'type' => 'text'
                 ],
                 'meta' => [

@@ -45,6 +45,23 @@ return [
                 'attrs' => [],
                 'index' => 6000
             ],
+            'curr_cover' => [
+                'type' => 'TEXT',
+                'attrs' => [],
+                'index' => 7000
+            ],
+            'curr_artist' => [
+                'type' => 'VARCHAR',
+                'length' => 50,
+                'attrs' => [],
+                'index' => 8000
+            ],
+            'curr_song' => [
+                'type' => 'VARCHAR',
+                'length' => 150,
+                'attrs' => [],
+                'index' => 9000
+            ],
             'updated' => [
                 'type' => 'TIMESTAMP',
                 'attrs' => [
